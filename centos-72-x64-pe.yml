@@ -21,4 +21,4 @@ CONFIG:
   log_level: debug
   color: false
   consoleport: 443
-  pe_dir: /opt/puppet-enterprise/el-7/
+  pe_dir: ~/Work/puppet/enterprise/dists

@@ -21,4 +21,4 @@ CONFIG:
   log_level: debug
   color: false
   consoleport: 443
-  pe_dir: /opt/puppet-enterprise/ubuntu-1404/
+  pe_dir: https://pm.puppetlabs.com/cgi-bin/download.cgi?dist=ubuntu&rel=14.04&arch=amd64&ver=latest
