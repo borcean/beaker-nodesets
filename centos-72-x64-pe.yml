@@ -1,0 +1,24 @@
+HOSTS:
+  centos-72-x64-master:
+    roles:
+      - master
+      - dashboard
+      - database
+      - agent
+    platform: el-7-x86_64
+    box: puppetlabs/centos-7.2-64-nocm
+    box_url: https://vagrantcloud.com/puppetlabs/boxes/centos-7.2-64-nocm
+    hypervisor: vagrant
+  centos-72-x64-agent:
+    roles:
+      - default
+      - agent
+    platform: el-7-x86_64
+    box: puppetlabs/centos-7.2-64-nocm
+    box_url: https://vagrantcloud.com/puppetlabs/boxes/centos-7.2-64-nocm
+    hypervisor: vagrant
+CONFIG:
+  log_level: debug
+  color: false
+  consoleport: 443
+  pe_dir: /opt/puppet-enterprise/el-7/
