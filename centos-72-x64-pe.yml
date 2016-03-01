@@ -21,4 +21,4 @@ CONFIG:
   log_level: debug
   color: false
   consoleport: 443
-  pe_dir: https://pm.puppetlabs.com/cgi-bin/download.cgi?dist=el&rel=7&arch=x86_64&ver=latest
+  pe_dir: ~/Work/puppet/enterprise/dists
