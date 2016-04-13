@@ -18,8 +18,13 @@ HOSTS:
     box: puppetlabs/centos-7.2-64-nocm
     box_url: https://vagrantcloud.com/puppetlabs/boxes/centos-7.2-64-nocm
     hypervisor: vagrant
+    volumes:
+      first:
+        size: 2000000
+      second:
+        size: 2000000
 CONFIG:
   log_level: debug
   color: false
   consoleport: 443
-  pe_dir: ~/Work/puppet/enterprise/dists
+  pe_dir: /home/mrsj/work/puppet/pe
